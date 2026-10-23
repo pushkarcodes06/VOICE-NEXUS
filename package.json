@@ -1,0 +1,12 @@
+{
+  "name": "voicenexus",
+  "version": "1.0.0",
+  "description": "VoiceNexus household assistant: an MCP server (Streamable HTTP) with Agent Skills, plus a web app client",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test/conformance.mjs"
+  }
+}
